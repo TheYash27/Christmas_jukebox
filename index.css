@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #e4f5f7; /* Light blue background */
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #f05a5a; /* Reddish-pink color */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    background-image: url("christmas-lights-bg.jpg"); /* Background image with Christmas lights */
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#player {
+  background-color: #DEEAEE;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 0;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
